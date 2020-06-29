@@ -1,0 +1,55 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "react-app",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["react-hooks", "jsx-a11y"],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/default": [2],
+    "import/export": [2],
+    "import/first": [2],
+    "import/named": [2],
+    "import/namespace": [2],
+    "import/no-cycle": [2, { "maxDepth": 1 }],
+    "import/no-duplicates": [2],
+    "import/no-self-import": [2],
+    "import/no-unresolved": [2],
+    "import/no-useless-path-segments": [2],
+    "import/dynamic-import-chunkname": [2]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      },
+      "alias": {
+        "map": [
+          ["~", "./"]
+        ],
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  },
+  "ignorePatterns": ["*.js"]
+}

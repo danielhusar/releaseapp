@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacer renders 1`] = `
+.emotion-0 {
+  height: 50px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    size="5"
+  />
+</div>
+`;
