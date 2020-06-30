@@ -1,3 +1,6 @@
+import fixtures from './fixtures'
+import { test } from './env'
+
 type Body = Record<string, string | number | boolean | null>
 
 interface PostOptions {
@@ -6,6 +9,10 @@ interface PostOptions {
 }
 
 function fetchFactory(url: string, method: 'GET' | 'POST' | 'PUT' | 'DELETE', body?: string | FormData) {
+  if (test) {
+    return Promise.resolve(fixtures[url])
+  }
+
   return fetch(url, {
     method,
     body,

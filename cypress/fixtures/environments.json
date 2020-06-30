@@ -1,0 +1,431 @@
+[
+  {
+    "id": 6701,
+    "name": "staging",
+    "version": 3,
+    "aasm_state": "done",
+    "permanent": true,
+    "tracking_branch": "master",
+    "last_deployed_at": "2020-04-08T20:51:02.698Z",
+    "pr_title": null,
+    "namespace": "release-rails-starter-staging-905b5609",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "web-staging-release-rails-starter.releaseapp.io",
+        "target": "web",
+        "hostname_with_params": "web-staging-release-rails-starter.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 10758,
+      "name": "release-rails-starter-refs/heads/master",
+      "branch": "master",
+      "status": "done",
+      "builder": "builder-4",
+      "message": null,
+      "created_at": "2020-04-08T20:44:05.181Z",
+      "repository_name": "release-rails-starter",
+      "repository_id": 10681,
+      "repository_full_name": "tmcclung/release-rails-starter",
+      "source_control": "github.com",
+      "commit_long": "7ca25300fd20b337d06b087a15ed4f856e23454d",
+      "commit_short": "7ca2530",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-04-08 13:43:56 -0700",
+      "commit_message": "added run-configure.sh",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/10681/builds/10758"
+    },
+    "pull_request_url": null,
+    "app": { "id": 291, "name": "release-rails-starter" }
+  },
+  {
+    "id": 12206,
+    "name": "staging",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": true,
+    "tracking_branch": "master",
+    "last_deployed_at": "2020-06-29T15:52:22.539Z",
+    "pr_title": null,
+    "namespace": "ev-external-staging-53096202",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-staging-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-staging-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-staging-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-staging-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-staging-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-staging-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 29325,
+      "name": "example-voting-app-ref/heads/master",
+      "branch": "master",
+      "status": "done",
+      "builder": "builder-1",
+      "message": null,
+      "created_at": "2020-06-29T15:48:38.039Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "bd8c57b140ae3099c29dd2297a7ec2eeaadf5bdd",
+      "commit_short": "bd8c57b",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-03-03 20:26:24 -0800",
+      "commit_message": "cats and dogs",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/29325"
+    },
+    "pull_request_url": null,
+    "app": { "id": 417, "name": "ev-external" }
+  },
+  {
+    "id": 12208,
+    "name": "tmcclung-fig",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": false,
+    "tracking_branch": "fig",
+    "last_deployed_at": "2020-06-29T16:02:58.521Z",
+    "pr_title": null,
+    "owner": {
+      "id": 2,
+      "email": "tmcclung@gmail.com",
+      "provider": null,
+      "uid": null,
+      "name": "tmcclung",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91503?v=4"
+    },
+    "namespace": "ev-external-tmcclung-fig-tedc-a2af8acc",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-tedc454-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-tedc454-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-tedc454-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-tedc454-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-tedc454-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-tedc454-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 29326,
+      "name": "example-voting-app-fig",
+      "branch": "fig",
+      "status": "done",
+      "builder": "builder-8",
+      "message": null,
+      "created_at": "2020-06-29T15:52:55.269Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "94b74a7d8ac6929c2958a06925da20f48b4c2897",
+      "commit_short": "94b74a7",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-02-21 12:15:43 -0800",
+      "commit_message": "test",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/29326"
+    },
+    "pull_request_url": null,
+    "app": { "id": 417, "name": "ev-external" }
+  },
+  {
+    "id": 12210,
+    "name": "tmcclung-baseball",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": false,
+    "tracking_branch": "baseball",
+    "last_deployed_at": "2020-06-29T16:45:27.514Z",
+    "pr_title": null,
+    "owner": {
+      "id": 2,
+      "email": "tmcclung@gmail.com",
+      "provider": null,
+      "uid": null,
+      "name": "tmcclung",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91503?v=4"
+    },
+    "namespace": "ev-external-tmcclung-baseball-ted-b8837aa9",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-ted1552-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-ted1552-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted1552-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted1552-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted1552-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted1552-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 18654,
+      "name": "example-voting-app-baseball",
+      "branch": "baseball",
+      "status": "done",
+      "builder": "builder-4",
+      "message": null,
+      "created_at": "2020-05-14T21:06:13.648Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "f11b034772336e1a4a31e188786a0075aeae8319",
+      "commit_short": "f11b034",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-03-14 22:16:27 -0700",
+      "commit_message": "baseball vs softball",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/18654"
+    },
+    "pull_request_url": null,
+    "app": { "id": 417, "name": "ev-external" }
+  },
+  {
+    "id": 12212,
+    "name": "tmcclung-stuff",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": false,
+    "tracking_branch": "stuff",
+    "last_deployed_at": "2020-06-29T16:49:01.230Z",
+    "pr_title": null,
+    "owner": {
+      "id": 2,
+      "email": "tmcclung@gmail.com",
+      "provider": null,
+      "uid": null,
+      "name": "tmcclung",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91503?v=4"
+    },
+    "namespace": "ev-external-tmcclung-stuff-tedbc0d-02abdc66",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-tedbc0d-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-tedbc0d-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-tedbc0d-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-tedbc0d-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-tedbc0d-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-tedbc0d-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 29339,
+      "name": "example-voting-app-stuff",
+      "branch": "stuff",
+      "status": "done",
+      "builder": "builder-5",
+      "message": null,
+      "created_at": "2020-06-29T16:47:13.136Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "880cb721a2a40ce96a97d82b9f1d1680064a1374",
+      "commit_short": "880cb72",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-02-11 14:46:32 -0800",
+      "commit_message": "stuff",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/29339"
+    },
+    "pull_request_url": null,
+    "app": { "id": 417, "name": "ev-external" }
+  },
+  {
+    "id": 12215,
+    "name": "tmcclung-coding-challenge-pr",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": false,
+    "tracking_branch": "coding-challenge-pr",
+    "last_deployed_at": "2020-06-29T16:56:31.459Z",
+    "pr_title": "coding challenge",
+    "owner": {
+      "id": 2,
+      "email": "tmcclung@gmail.com",
+      "provider": null,
+      "uid": null,
+      "name": "tmcclung",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91503?v=4"
+    },
+    "namespace": "ev-external-tmcclung-coding-challenge-pr-ted3a-798b4b64",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-ted3a84-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-ted3a84-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted3a84-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted3a84-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted3a84-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted3a84-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 29343,
+      "name": "example-voting-app-refs/tags/coding-challenge-pr",
+      "branch": "coding-challenge-pr",
+      "status": "done",
+      "builder": "builder-3",
+      "message": null,
+      "created_at": "2020-06-29T16:52:59.731Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "0d3e89d7e07d165d7ee7406b7faf03a69905c2b8",
+      "commit_short": "0d3e89d",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2020-06-29 09:51:48 -0700",
+      "commit_message": "coding challenge",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/29343"
+    },
+    "pull_request_url": "https://github.com/tmcclung/example-voting-app/pull/44",
+    "app": { "id": 417, "name": "ev-external" }
+  },
+  {
+    "id": 12217,
+    "name": "tmcclung-demo-branch",
+    "version": 2,
+    "aasm_state": "done",
+    "permanent": false,
+    "tracking_branch": "demo-branch",
+    "last_deployed_at": "2020-06-29T16:58:57.401Z",
+    "pr_title": null,
+    "owner": {
+      "id": 2,
+      "email": "tmcclung@gmail.com",
+      "provider": null,
+      "uid": null,
+      "name": "tmcclung",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91503?v=4"
+    },
+    "namespace": "ev-external-tmcclung-demo-branch-ted9e-eb35f5cf",
+    "mode": "development",
+    "hostnames": [
+      {
+        "hostname": "vote-ted9e90-ev-external.releaseapp.io",
+        "target": "vote",
+        "hostname_with_params": "vote-ted9e90-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted9e90-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted9e90-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "result-ted9e90-ev-external.releaseapp.io",
+        "target": "result",
+        "hostname_with_params": "result-ted9e90-ev-external.releaseapp.io?clicked_from=Release\u0026account_name=Acme"
+      },
+      {
+        "hostname": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com",
+        "target": "loadbalancer",
+        "type": "alb",
+        "hostname_with_params": "aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release\u0026account_name=Acme"
+      }
+    ],
+    "current_build": {
+      "id": 29345,
+      "name": "example-voting-app-demo-branch",
+      "branch": "demo-branch",
+      "status": "done",
+      "builder": "builder-4",
+      "message": null,
+      "created_at": "2020-06-29T16:56:59.460Z",
+      "repository_name": "example-voting-app",
+      "repository_id": 60,
+      "repository_full_name": "tmcclung/example-voting-app",
+      "source_control": "github.com",
+      "commit_long": "56320a8e9093c1324125848bbf035bc19bed9a87",
+      "commit_short": "56320a8",
+      "commit_email": "tmcclung@gmail.com",
+      "commit_date": "2019-12-16 11:49:04 -0800",
+      "commit_message": "clubhouse",
+      "artifacts": [],
+      "url": "https://app.releaseapp.io/admin/repositories/60/builds/29345"
+    },
+    "pull_request_url": null,
+    "app": { "id": 417, "name": "ev-external" }
+  }
+]
