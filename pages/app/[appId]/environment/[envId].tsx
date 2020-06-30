@@ -1,9 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import { GetServerSideProps } from 'next'
-import { Heading } from '@chakra-ui/core'
-import SideBar from '~/components/SideBar'
+import AppSwitch from '~/components/AppSwitch'
+import Spacer from '~/components/Spacer'
 import Content from '~/components/Content'
 import Error from '../../../_error'
 import { IEnvironments } from '~/components/Environments'
@@ -32,14 +31,9 @@ export default function EnvironmentPage({ environments, appId, envId }: Props) {
           Release | Apps | {app.name} | {environment.name}
         </title>
       </Head>
-      <SideBar appId={appId} apps={apps} activeNav="environments"></SideBar>
       <Content>
-        <Heading as="h1" size="lg" marginBottom={5} fontWeight={400}>
-          <Link href="/app/[appId]/environments" as={`/app/${app.id}/environments`}>
-            <a>{app.name}</a>
-          </Link>{' '}
-          - {environment.name}
-        </Heading>
+        <AppSwitch appId={appId} apps={apps} activeNav="environments" />
+        <Spacer size={3} />
         <EnvironmentDetail {...environment} />
       </Content>
     </>

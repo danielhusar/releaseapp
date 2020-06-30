@@ -1,7 +1,6 @@
 import React from 'react'
-import { Box, Heading } from '@chakra-ui/core'
-import Table from './Table'
-import EnvironmentRow from './EnvironmentRow'
+import { Heading, Grid } from '@chakra-ui/core'
+import EnvironmentItem from './EnvironmentItem'
 import { IEnvironment } from '~/@types/environment'
 
 export interface IEnvironments {
@@ -10,24 +9,16 @@ export interface IEnvironments {
 
 export default function Environments({ environments }: IEnvironments) {
   return (
-    <Box
-      p="6"
-      borderWidth="1px"
-      background="white"
-      overflow="hidden"
-      display="flex"
-      flexDirection="column"
-      data-testid="environment"
-    >
+    <>
       <Heading size="md" fontWeight={400} marginBottom={5}>
         Environments
       </Heading>
 
-      <Table head={['Name', 'Status', 'Date', 'Build', 'Commit SHA', 'Actions']}>
+      <Grid templateColumns="repeat(auto-fill,minmax(250px,1fr))" gap={5}>
         {environments.map((environment) => (
-          <EnvironmentRow {...environment} key={environment.id} />
+          <EnvironmentItem {...environment} key={environment.id} />
         ))}
-      </Table>
-    </Box>
+      </Grid>
+    </>
   )
 }
