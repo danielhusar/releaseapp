@@ -21,6 +21,7 @@
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/ban-ts-ignore": 0,
     "@typescript-eslint/ban-ts-comment": 0,
+    "jsx-a11y/anchor-is-valid": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/default": [2],

@@ -6,11 +6,22 @@ const styles = css`
   body {
     min-height: 100%;
     height: 100%;
+    background: #eee;
+    color: #555555;
+    font-size: 16px;
   }
 
   img,
   video {
     max-width: 100%;
+  }
+
+  a {
+    color: #9c27b0;
+  }
+
+  #__next {
+    height: 100%;
   }
 `
 

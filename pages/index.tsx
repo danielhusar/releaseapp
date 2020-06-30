@@ -1,27 +1,24 @@
 import React from 'react'
 import Head from 'next/head'
 import { GetServerSideProps } from 'next'
-import Environments, { IEnvironments } from '~/components/Environments'
+import api, { API_ENDPOINT } from '~/lib/api'
 
-interface Props extends IEnvironments {}
-
-export default function IndexPage({ environments }: Props) {
+export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Documents</title>
+        <title>Apps</title>
       </Head>
-      <Environments environments={environments} />
     </>
   )
 }
 
-export const getServerSideProps: GetServerSideProps<Props> = async function () {
-  const environments = [{ id: '1' }]
+export const getServerSideProps: GetServerSideProps<Record<string, unknown>> = async function ({ res }) {
+  const environments = await api.get(API_ENDPOINT)
+  res.setHeader('Location', `/app/${environments[0].app.id}/environments`)
+  res.statusCode = 301
 
   return {
-    props: {
-      environments,
-    },
+    props: {},
   }
 }

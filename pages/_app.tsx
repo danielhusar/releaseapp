@@ -4,7 +4,6 @@ import Head from 'next/head'
 import { ThemeProvider, CSSReset } from '@chakra-ui/core'
 import theme from '~/lib/theme'
 import Main from '~/components/Main'
-import Container from '~/components/Container'
 import GlobalStyles from '~/components/GlobalStyles'
 import Error from './_error'
 
@@ -37,9 +36,7 @@ export default class MyApp extends App<Props, State> {
         </Head>
         <CSSReset />
         <GlobalStyles />
-        <Main aria-live="polite">
-          <Container>{error ? <Error status={500} /> : <Component {...pageProps} />}</Container>
-        </Main>
+        <Main aria-live="polite">{error ? <Error status={500} /> : <Component {...pageProps} />}</Main>
       </ThemeProvider>
     )
   }

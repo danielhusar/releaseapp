@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { Heading } from '@chakra-ui/core'
+import Container from '~/components/Container'
 
 interface Props {
   status: number
@@ -23,9 +24,11 @@ export default class Error extends React.Component<Props> {
         <Head>
           <title>Error</title>
         </Head>
-        <Heading textAlign="center" size="xl">
-          {message}
-        </Heading>
+        <Container>
+          <Heading textAlign="center" size="xl">
+            {message}
+          </Heading>
+        </Container>
       </>
     )
   }

@@ -49,3 +49,5 @@ export default {
   post,
   delete: del,
 }
+
+export const API_ENDPOINT = 'https://api.releaseapp.io/accounts/Acme/api-external/live'

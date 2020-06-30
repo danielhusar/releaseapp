@@ -1,10 +1,11 @@
 import styled from './Styled'
 
-const Main = styled.div`
-  grid-column: content;
+const Container = styled.div`
   width: 100%;
   max-width: 960px;
+  padding: 20px;
   margin: 0 auto;
+  grid-column: sidebar / span 2;
 `
 
-export default Main
+export default Container
