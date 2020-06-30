@@ -34,3 +34,7 @@ If you need to deploy the app to the production, first you need to run `yarn bui
 After that you can start app in the production with `yarn start`.\
 
 > Caveat: I have tested the app only on Mac OS. While it's likely it will work fine on linux too, windows is not likely supported at the moment.
+
+## Demo
+
+[https://releaseapp.vercel.app/](https://releaseapp.vercel.app/)
