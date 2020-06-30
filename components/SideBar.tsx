@@ -7,7 +7,7 @@ import Spacer from './Spacer'
 import { IApps } from '~/@types/environment'
 
 interface SideBarProps {
-  appId: string
+  appId: number
   apps: IApps
   activeNav: 'environments'
 }

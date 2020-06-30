@@ -10,7 +10,7 @@ import api, { API_ENDPOINT } from '~/lib/api'
 import { extractAppsFromEnvironments } from '~/lib/appHelpers'
 
 interface Props extends IEnvironments {
-  appId: string | undefined
+  appId: number | undefined
 }
 
 export default function EnvironmentsPage({ environments, appId }: Props) {
@@ -43,7 +43,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async function ({ q
   return {
     props: {
       environments,
-      appId: query.appId as string,
+      appId: Number(query.appId),
     },
   }
 }
