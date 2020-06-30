@@ -11,6 +11,7 @@ const TableStyled = styled.table<{ slim: boolean }>`
   border: none;
   text-align: left;
   font-size: 0.875rem;
+  width: 100%;
 
   th {
     padding: 20px 5px;
