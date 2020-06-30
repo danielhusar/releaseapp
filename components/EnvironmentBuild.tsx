@@ -10,6 +10,7 @@ const dateTimeFormat = new Intl.DateTimeFormat('en', {
   hour: 'numeric',
   minute: 'numeric',
   second: 'numeric',
+  timeZone: 'America/Los_Angeles',
   timeZoneName: 'short',
 })
 
