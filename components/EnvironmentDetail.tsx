@@ -9,9 +9,9 @@ export default function EnvironmentDetail(props: IEnvironment) {
   return (
     <>
       <EnvironmentInfo {...props} />
-      <Spacer size={4} />
+      <Spacer size={3} />
       <EnvironmentHostnames {...props} />
-      <Spacer size={4} />
+      <Spacer size={3} />
       <EnvironmentBuild {...props} />
     </>
   )
