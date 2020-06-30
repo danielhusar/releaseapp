@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnvironmentDetail renders 1`] = `
+.emotion-7 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:1100px) {
+  .emotion-7 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.emotion-2 {
+  padding: 1.5rem;
+  border-width: 1px;
+  background: white;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin-bottom: 1.25rem;
+}
+
+.emotion-1 {
+  border: none;
+  text-align: left;
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.emotion-1 th {
+  padding: 20px 5px;
+  font-weight: 500;
+}
+
+.emotion-1 td {
+  border-top: 1px solid #ccc;
+  padding: 30px 5px;
+}
+
+.emotion-1 td {
+  padding: 15px 5px;
+}
+
+.emotion-4 {
+  display: inline-block;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border-radius: 0.125rem;
+  font-weight: 700;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #38a169;
+  color: #fff;
+}
+
+.emotion-8 {
+  height: 30px;
+}
+
+<div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-2"
+      data-testid="environment-info"
+    >
+      <h2
+        class="emotion-0"
+      >
+        Info
+      </h2>
+      <table
+        class="emotion-1"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <b>
+                Namespace
+              </b>
+               - 
+              release-rails-starter-staging-905b5609
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Mode
+              </b>
+               - 
+              development
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Config Version
+              </b>
+               - 
+              3
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Tracking Branch
+              </b>
+               - 
+              master
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Deployed Build
+              </b>
+               - 
+              10758
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Deployed Commit SHA
+              </b>
+               - 
+              <a
+                href="https://github.com/tmcclung/release-rails-starter/commit/7ca25300fd20b337d06b087a15ed4f856e23454d"
+                rel="noreferrer"
+                target="_blank"
+              >
+                7ca2530
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="emotion-2"
+      data-testid="environment-info"
+    >
+      <h2
+        class="emotion-0"
+      >
+        Build
+      </h2>
+      <table
+        class="emotion-1"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <b>
+                ID
+              </b>
+               - 
+              10758
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Status
+              </b>
+               -
+               
+              <div
+                class="emotion-4"
+              >
+                done
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Build at
+              </b>
+               - 
+              Apr 08, 2020, 1:51:02 PM PDT
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Branch
+              </b>
+               - 
+              master
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Commiter
+              </b>
+               - 
+              tmcclung@gmail.com
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Commit message
+              </b>
+               - 
+              added run-configure.sh
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    class="emotion-8"
+    size="3"
+  />
+  <div
+    class="emotion-2"
+    data-testid="environment-hostnames"
+  >
+    <h2
+      class="emotion-0"
+    >
+      Hostnames
+    </h2>
+    <table
+      class="emotion-1"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <b>
+              web
+            </b>
+             -
+             
+            <a
+              href="https://web-staging-release-rails-starter.releaseapp.io?clicked_from=Release&account_name=Acme"
+              rel="noreferrer"
+              target="_blank"
+            >
+              web-staging-release-rails-starter.releaseapp.io
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              loadbalancer
+            </b>
+             -
+             
+            <a
+              href="https://aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release&account_name=Acme"
+              rel="noreferrer"
+              target="_blank"
+            >
+              aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

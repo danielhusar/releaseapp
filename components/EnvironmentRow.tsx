@@ -1,20 +1,32 @@
 import React from 'react'
 import Link from 'next/link'
-import { Button, Badge } from '@chakra-ui/core'
+import { Button, Badge, Stack, Avatar } from '@chakra-ui/core'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
+import BuildUrl from './BuildUrl'
 import { IEnvironment } from '~/@types/environment'
 
 TimeAgo.addLocale(en)
 const timeAgo = new TimeAgo('en-US')
 
-export default function EnvironmentRow({ id, name, last_deployed_at, aasm_state, current_build, app }: IEnvironment) {
+export default function EnvironmentRow({
+  id,
+  name,
+  last_deployed_at,
+  aasm_state,
+  current_build,
+  app,
+  owner,
+}: IEnvironment) {
   return (
     <tr key={id}>
       <td>
-        <Link href="/app/[appId]/environment/[envId]" as={`/app/${app.id}/environment/${id}`}>
-          <a>{name}</a>
-        </Link>
+        <Stack isInline align="center" spacing={4}>
+          {owner ? <Avatar src={owner.avatar_url} size="sm" name={owner.name} /> : <Avatar size="sm" />}
+          <Link href="/app/[appId]/environment/[envId]" as={`/app/${app.id}/environment/${id}`}>
+            <a>{name}</a>
+          </Link>
+        </Stack>
       </td>
       <td>
         <Badge variant="solid" variantColor={aasm_state === 'done' ? 'green' : 'red'}>
@@ -24,15 +36,8 @@ export default function EnvironmentRow({ id, name, last_deployed_at, aasm_state,
       <td>{timeAgo.format(last_deployed_at)}</td>
       <td>{current_build.id}</td>
       <td>
-        <a
-          href={`https://${current_build.source_control}/${current_build.repository_full_name}/commit/${current_build.commit_long}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {current_build.commit_short}
-        </a>
+        <BuildUrl {...current_build} />
       </td>
-
       <td>
         <Link href="/app/[appId]/environment/[envId]" as={`/app/${app.id}/environment/${id}`}>
           <a>

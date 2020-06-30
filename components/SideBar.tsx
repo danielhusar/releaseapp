@@ -63,9 +63,9 @@ export default function SideBar({ apps, appId, activeNav }: SideBarProps) {
     <Nav>
       <img src="https://app.releaseapp.io/static/media/logo-large.e6fe72c6.svg" alt="logo" width="130" height="26" />
       <Spacer size={3} />
-      <Select defaultValue={appId} variant="flushed" onChange={handleChange}>
-        {Object.keys(apps).map((appKey: unknown) => {
-          const app = apps[appKey as number]
+      <Select defaultValue={appId} variant="flushed" onChange={handleChange} data-testid="select">
+        {Object.keys(apps).map((appKey) => {
+          const app = apps[appKey]
           return (
             <option key={app.id} value={app.id}>
               {app.name}

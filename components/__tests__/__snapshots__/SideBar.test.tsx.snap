@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar renders 1`] = `
+.emotion-7 {
+  width: 100%;
+  background: #0f0f0f;
+  color: white;
+  height: 100vh;
+  grid-column: sidebar;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.emotion-0 {
+  height: 30px;
+}
+
+.emotion-4 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1rem;
+  padding-right: 2rem;
+  height: 2.5rem;
+  border-radius: 0;
+  border-bottom: 2px solid;
+  border-color: inherit;
+  background-color: transparent;
+  padding-bottom: 1px;
+  line-height: normal;
+  color: inherit;
+}
+
+.emotion-1:focus {
+  z-index: 1;
+  border-color: #3182ce;
+}
+
+.emotion-1[aria-invalid=true] {
+  border-color: #e53e3e;
+}
+
+.emotion-1[aria-readonly=true],
+.emotion-1[readonly] {
+  background-color: transparent;
+  box-shadow: none !important;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.emotion-3 {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 1.5rem;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  right: 0.5rem;
+  top: 50%;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: inherit;
+}
+
+.emotion-2 {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.emotion-2:not(:root) {
+  overflow: hidden;
+}
+
+.emotion-6 {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #284274;
+}
+
+.emotion-6 svg {
+  width: 30px;
+  fill: currentColor;
+}
+
+.emotion-6:hover {
+  background-color: rgba(200,200,200,0.2);
+}
+
+.emotion-6:hover {
+  background-color: #284274;
+}
+
+<div>
+  <nav
+    class="emotion-7"
+  >
+    <img
+      alt="logo"
+      height="26"
+      src="https://app.releaseapp.io/static/media/logo-large.e6fe72c6.svg"
+      width="130"
+    />
+    <div
+      class="emotion-0"
+      size="3"
+    />
+    <div
+      class="emotion-4"
+    >
+      <select
+        class="emotion-1"
+        data-testid="select"
+      >
+        <option
+          selected=""
+          value="291"
+        >
+          release-rails-starter
+        </option>
+        <option
+          value="417"
+        >
+          ev-external
+        </option>
+      </select>
+      <div
+        class="emotion-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="emotion-2"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="emotion-0"
+      size="3"
+    />
+    <a
+      class="emotion-6"
+      href="/app/291/environments"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+        />
+      </svg>
+      Environments
+    </a>
+  </nav>
+</div>
+`;

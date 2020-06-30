@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildUrl renders 1`] = `
+<div>
+  <a
+    href="https://github.com/tmcclung/release-rails-starter/commit/7ca25300fd20b337d06b087a15ed4f856e23454d"
+    rel="noreferrer"
+    target="_blank"
+  >
+    7ca2530
+  </a>
+</div>
+`;

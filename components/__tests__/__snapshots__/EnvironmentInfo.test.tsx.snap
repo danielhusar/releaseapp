@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnvironmentInfo renders 1`] = `
+.emotion-2 {
+  padding: 1.5rem;
+  border-width: 1px;
+  background: white;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin-bottom: 1.25rem;
+}
+
+.emotion-1 {
+  border: none;
+  text-align: left;
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.emotion-1 th {
+  padding: 20px 5px;
+  font-weight: 500;
+}
+
+.emotion-1 td {
+  border-top: 1px solid #ccc;
+  padding: 30px 5px;
+}
+
+.emotion-1 td {
+  padding: 15px 5px;
+}
+
+<div>
+  <div
+    class="emotion-2"
+    data-testid="environment-info"
+  >
+    <h2
+      class="emotion-0"
+    >
+      Info
+    </h2>
+    <table
+      class="emotion-1"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <b>
+              Namespace
+            </b>
+             - 
+            release-rails-starter-staging-905b5609
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Mode
+            </b>
+             - 
+            development
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Config Version
+            </b>
+             - 
+            3
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Tracking Branch
+            </b>
+             - 
+            master
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Deployed Build
+            </b>
+             - 
+            10758
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Deployed Commit SHA
+            </b>
+             - 
+            <a
+              href="https://github.com/tmcclung/release-rails-starter/commit/7ca25300fd20b337d06b087a15ed4f856e23454d"
+              rel="noreferrer"
+              target="_blank"
+            >
+              7ca2530
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

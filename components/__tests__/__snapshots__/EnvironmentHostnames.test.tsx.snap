@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnvironmentHostnames renders 1`] = `
+.emotion-2 {
+  padding: 1.5rem;
+  border-width: 1px;
+  background: white;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin-bottom: 1.25rem;
+}
+
+.emotion-1 {
+  border: none;
+  text-align: left;
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.emotion-1 th {
+  padding: 20px 5px;
+  font-weight: 500;
+}
+
+.emotion-1 td {
+  border-top: 1px solid #ccc;
+  padding: 30px 5px;
+}
+
+.emotion-1 td {
+  padding: 15px 5px;
+}
+
+<div>
+  <div
+    class="emotion-2"
+    data-testid="environment-hostnames"
+  >
+    <h2
+      class="emotion-0"
+    >
+      Hostnames
+    </h2>
+    <table
+      class="emotion-1"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <b>
+              web
+            </b>
+             -
+             
+            <a
+              href="https://web-staging-release-rails-starter.releaseapp.io?clicked_from=Release&account_name=Acme"
+              rel="noreferrer"
+              target="_blank"
+            >
+              web-staging-release-rails-starter.releaseapp.io
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              loadbalancer
+            </b>
+             -
+             
+            <a
+              href="https://aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com?clicked_from=Release&account_name=Acme"
+              rel="noreferrer"
+              target="_blank"
+            >
+              aa706a7e5268111ea83080a645f14cfc-769820333.us-west-2.elb.amazonaws.com
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
