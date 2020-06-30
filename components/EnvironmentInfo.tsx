@@ -4,7 +4,7 @@ import Table from './Table'
 import BuildUrl from './BuildUrl'
 import { IEnvironment } from '~/@types/environment'
 
-export default function EnvironmentInfo({ namespace, mode, version, tracking_branch, current_build }: IEnvironment) {
+export default function EnvironmentInfo({ namespace, mode, version, name, current_build }: IEnvironment) {
   return (
     <Box
       p="6"
@@ -22,6 +22,11 @@ export default function EnvironmentInfo({ namespace, mode, version, tracking_bra
       <Table slim={true}>
         <tr>
           <td>
+            <b>Name</b> - {name}
+          </td>
+        </tr>
+        <tr>
+          <td>
             <b>Namespace</b> - {namespace}
           </td>
         </tr>
@@ -35,11 +40,7 @@ export default function EnvironmentInfo({ namespace, mode, version, tracking_bra
             <b>Config Version</b> - {version}
           </td>
         </tr>
-        <tr>
-          <td>
-            <b>Tracking Branch</b> - {tracking_branch}
-          </td>
-        </tr>
+
         <tr>
           <td>
             <b>Deployed Build</b> - {current_build.id}

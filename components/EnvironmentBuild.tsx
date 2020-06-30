@@ -31,21 +31,20 @@ export default function EnvironmentBuild({ aasm_state, last_deployed_at, current
       <Table slim={true}>
         <tr>
           <td>
-            <b>ID</b> - {current_build.id}
-          </td>
-        </tr>
-        <tr>
-          <td>
             <b>Status</b> -{' '}
             <Badge variant="solid" variantColor={aasm_state === 'done' ? 'green' : 'red'}>
               {aasm_state}
             </Badge>
           </td>
         </tr>
-
         <tr>
           <td>
-            <b>Build at</b> - {dateTimeFormat.format(last_deployed_at)}
+            <b>Created at</b> - {dateTimeFormat.format(current_build.created_at)}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Deployed at</b> - {dateTimeFormat.format(last_deployed_at)}
           </td>
         </tr>
         <tr>

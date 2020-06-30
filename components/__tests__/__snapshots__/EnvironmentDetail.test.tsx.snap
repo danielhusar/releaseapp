@@ -94,6 +94,15 @@ exports[`EnvironmentDetail renders 1`] = `
           <tr>
             <td>
               <b>
+                Name
+              </b>
+               - 
+              staging
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
                 Namespace
               </b>
                - 
@@ -116,15 +125,6 @@ exports[`EnvironmentDetail renders 1`] = `
               </b>
                - 
               3
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <b>
-                Tracking Branch
-              </b>
-               - 
-              master
             </td>
           </tr>
           <tr>
@@ -170,15 +170,6 @@ exports[`EnvironmentDetail renders 1`] = `
           <tr>
             <td>
               <b>
-                ID
-              </b>
-               - 
-              10758
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <b>
                 Status
               </b>
                -
@@ -193,7 +184,16 @@ exports[`EnvironmentDetail renders 1`] = `
           <tr>
             <td>
               <b>
-                Build at
+                Created at
+              </b>
+               - 
+              Apr 08, 2020, 1:44:05 PM PDT
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Deployed at
               </b>
                - 
               Apr 08, 2020, 1:51:02 PM PDT

@@ -34,7 +34,7 @@ export default function EnvironmentPage({ environments, appId, envId }: Props) {
       </Head>
       <SideBar appId={appId} apps={apps} activeNav="environments"></SideBar>
       <Content>
-        <Heading as="h1" size="lg" marginBottom={5} fontWeight={400} textTransform="capitalize">
+        <Heading as="h1" size="lg" marginBottom={5} fontWeight={400}>
           <Link href="/app/[appId]/environments" as={`/app/${app.id}/environments`}>
             <a>{app.name}</a>
           </Link>{' '}

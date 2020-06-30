@@ -61,6 +61,15 @@ exports[`EnvironmentInfo renders 1`] = `
         <tr>
           <td>
             <b>
+              Name
+            </b>
+             - 
+            staging
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>
               Namespace
             </b>
              - 
@@ -83,15 +92,6 @@ exports[`EnvironmentInfo renders 1`] = `
             </b>
              - 
             3
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <b>
-              Tracking Branch
-            </b>
-             - 
-            master
           </td>
         </tr>
         <tr>
