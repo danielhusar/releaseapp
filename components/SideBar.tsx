@@ -13,7 +13,7 @@ interface SideBarProps {
 }
 
 const Nav = styled.nav`
-  width: 300px;
+  width: 100%;
   background: #0f0f0f;
   color: white;
   height: 100vh;
@@ -61,7 +61,7 @@ export default function SideBar({ apps, appId, activeNav }: SideBarProps) {
 
   return (
     <Nav>
-      <img src="https://app.releaseapp.io/static/media/logo-large.e6fe72c6.svg" alt="logo" width="130" />
+      <img src="https://app.releaseapp.io/static/media/logo-large.e6fe72c6.svg" alt="logo" width="130" height="26" />
       <Spacer size={3} />
       <Select defaultValue={appId} variant="flushed" onChange={handleChange}>
         {Object.keys(apps).map((appKey: unknown) => {
