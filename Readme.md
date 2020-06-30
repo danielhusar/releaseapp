@@ -31,7 +31,7 @@ To run the tests you can run:
 All the tests run also in [CI as github action](https://github.com/danielhusar/releaseapp/actions) on every push.
 
 If you need to deploy the app to the production, first you need to run `yarn build`.\
-After that you can start app in the production with `yarn start`.\
+After that you can start app in the production with `yarn start`.
 
 > Caveat: I have tested the app only on Mac OS. While it's likely it will work fine on linux too, windows is not likely supported at the moment.
 
