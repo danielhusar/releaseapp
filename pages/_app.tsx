@@ -32,7 +32,8 @@ export default class MyApp extends App<Props, State> {
         <Head>
           <meta charSet="utf-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <title>Daniel Jun 13 2020</title>
+          <title>Release</title>
+          <link rel="shortcut icon" href="https://app.releaseapp.io/favicon.ico"></link>
         </Head>
         <CSSReset />
         <GlobalStyles />

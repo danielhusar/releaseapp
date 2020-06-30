@@ -7,7 +7,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Apps</title>
+        <title>Release | Apps</title>
       </Head>
     </>
   )

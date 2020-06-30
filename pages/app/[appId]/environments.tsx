@@ -24,7 +24,7 @@ export default function EnvironmentsPage({ environments, appId }: Props) {
   return (
     <>
       <Head>
-        <title>Apps | {app.name}</title>
+        <title>Release | Apps | {app.name}</title>
       </Head>
       <SideBar appId={appId} apps={apps} activeNav="environments"></SideBar>
       <Content>

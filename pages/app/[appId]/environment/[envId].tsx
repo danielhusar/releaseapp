@@ -29,7 +29,7 @@ export default function EnvironmentPage({ environments, appId, envId }: Props) {
     <>
       <Head>
         <title>
-          Apps | {app.name} | {environment.name}
+          Release | Apps | {app.name} | {environment.name}
         </title>
       </Head>
       <SideBar appId={appId} apps={apps} activeNav="environments"></SideBar>
