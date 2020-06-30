@@ -226,11 +226,13 @@ exports[`Environments renders 1`] = `
                   </svg>
                 </div>
               </div>
-              <a
-                href="/app/291/environment/6701"
-              >
-                staging
-              </a>
+              <span>
+                <a
+                  href="/app/291/environment/6701"
+                >
+                  staging
+                </a>
+              </span>
             </div>
           </td>
           <td>

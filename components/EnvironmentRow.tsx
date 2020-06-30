@@ -23,9 +23,11 @@ export default function EnvironmentRow({
       <td>
         <Stack isInline align="center" spacing={4}>
           {owner ? <Avatar src={owner.avatar_url} size="sm" name={owner.name} /> : <Avatar size="sm" />}
-          <Link href="/app/[appId]/environment/[envId]" as={`/app/${app.id}/environment/${id}`}>
-            <a>{name}</a>
-          </Link>
+          <span>
+            <Link href="/app/[appId]/environment/[envId]" as={`/app/${app.id}/environment/${id}`}>
+              <a>{name}</a>
+            </Link>
+          </span>
         </Stack>
       </td>
       <td>
