@@ -57,7 +57,7 @@
     "jest": "^26.0.1",
     "jest-emotion": "^10.0.32",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.5.0",
     "lint-staged": "^10.2.9",
     "prettier": "^2.0.5",
     "start-server-and-test": "^1.11.0",
